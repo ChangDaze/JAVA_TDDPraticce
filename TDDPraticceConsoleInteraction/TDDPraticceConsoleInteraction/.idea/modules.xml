@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TDDPraticceConsoleInteraction.iml" filepath="$PROJECT_DIR$/TDDPraticceConsoleInteraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TDDPraticce.iml" filepath="$PROJECT_DIR$/TDDPraticce.iml" />
     </modules>
   </component>
 </project>
