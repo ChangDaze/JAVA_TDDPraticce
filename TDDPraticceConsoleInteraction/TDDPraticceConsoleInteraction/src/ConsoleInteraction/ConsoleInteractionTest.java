@@ -74,4 +74,30 @@ public class ConsoleInteractionTest {
         String printed = consoleInteraction.print();
         Assertions.assertEquals("Area=70, Circumference=34", printed);
     }
+
+    @Test
+    void initial_and_C(){
+        ConsoleInteraction consoleInteraction = new ConsoleInteraction();
+        consoleInteraction.input("C");
+        String printed = consoleInteraction.print();
+        Assertions.assertEquals("Circle radius?", printed);
+    }
+
+    @Test
+    void initial_and_C_10(){
+        ConsoleInteraction consoleInteraction = new ConsoleInteraction();
+        consoleInteraction.input("C");
+        consoleInteraction.input("10");
+        String printed = consoleInteraction.print();
+        Assertions.assertEquals("Area=314.00, Circumference=62.80", printed);
+    }
+
+    @Test
+    void initial_and_C_100(){
+        ConsoleInteraction consoleInteraction = new ConsoleInteraction();
+        consoleInteraction.input("C");
+        consoleInteraction.input("100");
+        String printed = consoleInteraction.print();
+        Assertions.assertEquals("Area=31400.00, Circumference=628.00", printed);
+    }
 }
